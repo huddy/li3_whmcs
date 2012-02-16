@@ -25,7 +25,7 @@ Connections::add('whmcs',array(
 
 ### Example:
 
-```namespace app\controllers;
+<pre>namespace app\controllers;
 
 use li3_whmcs\models\Products;
 
@@ -43,4 +43,4 @@ class WhmcsTestController extends \lithium\action\Controller {
         }
     }
     
-}```
+}</pre>
