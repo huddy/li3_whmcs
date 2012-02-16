@@ -10,18 +10,20 @@ Checkout as a submodule into app/libraries.
 
 ### Load the library:
 
-Libraries::add('li3_whmcs');
+File: app/config/bootstrap/libraries.php.
+<pre>Libraries::add('li3_whmcs');</pre>
 
 ### Add a connection like so to your bootstrap:
 
-Connections::add('whmcs',array(
+File: app/config/bootstrap/connections.php.
+<pre>Connections::add('whmcs',array(
     'type' => 'http',
     'adapter' => 'Whmcs',
     'login' => '<username>',
     'host' => '<url>',
     'port' => 80,
     'password' => '<password>',
-));
+));</pre>
 
 ### Example:
 
