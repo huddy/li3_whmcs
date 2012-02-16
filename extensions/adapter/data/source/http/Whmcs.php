@@ -19,7 +19,7 @@ class Whmcs extends \lithium\data\source\Http {
     
     /**
      * Paths to API.. because lithium is lovely we can simply
-     * use the modem "name" and cast this to the API method. 
+     * use the model "name" and cast this to the API method. 
      * 
      * model => corrosponding API action.
      * @var array
