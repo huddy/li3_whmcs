@@ -17,15 +17,15 @@ Libraries::add('li3_whmcs');
 Connections::add('whmcs',array(
     'type' => 'http',
     'adapter' => 'Whmcs',
-    'login' => 'username',
-    'host' => 'clients.layerstation.com',
+    'login' => '<username>',
+    'host' => '<url>',
     'port' => 80,
-    'password' => 'b061582575',
+    'password' => '<password>',
 ));
 
 ### Example:
 
-namespace app\controllers;
+```namespace app\controllers;
 
 use li3_whmcs\models\Products;
 
@@ -43,4 +43,4 @@ class WhmcsTestController extends \lithium\action\Controller {
         }
     }
     
-}
+}```
